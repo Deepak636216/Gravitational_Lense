@@ -1,0 +1,40 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Virtual Environment
+venv/
+env/
+ENV/
+
+# Dataset (too large for git)
+dataset/
+*.npy
+
+# MacOS
+__MACOSX/
+.DS_Store
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Checkpoints and logs
+checkpoints/*.pth
+checkpoints/*.pt
+logs/*.log
+logs/*.txt
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+*.ipynb
+
+# Keep directory structure but ignore contents
+!checkpoints/.gitkeep
+!logs/.gitkeep
+!visualizations/.gitkeep
