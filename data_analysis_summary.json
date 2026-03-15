@@ -1,0 +1,88 @@
+{
+  "Dataset Overview": {
+    "Total Samples": 37500,
+    "Training Samples": 30000,
+    "Validation Samples": 7500,
+    "Image Shape": "(150, 150, 1)",
+    "Pixel Range": "[0, 1]",
+    "Classes": [
+      "No Substructure",
+      "Subhalo/Sphere",
+      "Vortex"
+    ]
+  },
+  "Class Distribution": {
+    "No Substructure": {
+      "Train": 10000,
+      "Val": 2500,
+      "Total": 12500
+    },
+    "Subhalo/Sphere": {
+      "Train": 10000,
+      "Val": 2500,
+      "Total": 12500
+    },
+    "Vortex": {
+      "Train": 10000,
+      "Val": 2500,
+      "Total": 12500
+    }
+  },
+  "Pixel Statistics": {
+    "No Substructure": {
+      "Mean": 0.061727756996301314,
+      "Std": 0.11712384733328901,
+      "Min": 0.0,
+      "Max": 1.0,
+      "Median": 0.017220172201722016
+    },
+    "Subhalo/Sphere": {
+      "Mean": 0.06121473201947629,
+      "Std": 0.11644910072211324,
+      "Min": 0.0,
+      "Max": 1.0,
+      "Median": 0.017241379310344827
+    },
+    "Vortex": {
+      "Mean": 0.061866376472509116,
+      "Std": 0.11704609808005699,
+      "Min": 0.0,
+      "Max": 1.0,
+      "Median": 0.017369727047146403
+    }
+  },
+  "Spatial Statistics": {
+    "No Substructure": {
+      "Horizontal Symmetry": 0.9728516438601617,
+      "Vertical Symmetry": 0.9655054582639074,
+      "X Variance": 955.4904032450573,
+      "Y Variance": 604.951919655925
+    },
+    "Subhalo/Sphere": {
+      "Horizontal Symmetry": 0.9705621034539337,
+      "Vertical Symmetry": 0.9633572154480047,
+      "X Variance": 971.8818569420318,
+      "Y Variance": 620.3789798742459
+    },
+    "Vortex": {
+      "Horizontal Symmetry": 0.9697797240911644,
+      "Vertical Symmetry": 0.9644428778403596,
+      "X Variance": 970.2259025834595,
+      "Y Variance": 615.6254802272445
+    }
+  },
+  "Edge Statistics": {
+    "No Substructure": {
+      "Mean Edge Magnitude": 0.07268232589459989,
+      "Std Edge Magnitude": 0.011597414515894836
+    },
+    "Subhalo/Sphere": {
+      "Mean Edge Magnitude": 0.07423084460208647,
+      "Std Edge Magnitude": 0.012667054493291518
+    },
+    "Vortex": {
+      "Mean Edge Magnitude": 0.07613814140304793,
+      "Std Edge Magnitude": 0.012288757729904965
+    }
+  }
+}
