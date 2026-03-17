@@ -1,0 +1,29 @@
+{
+  "gradient_boosting": {
+    "train_acc": 0.7367333333333334,
+    "val_acc": 0.4512,
+    "train_time": 108.55505585670471
+  },
+  "xgboost": {
+    "train_acc": 0.8808666666666667,
+    "val_acc": 0.45893333333333336,
+    "train_time": 3.33516001701355
+  },
+  "lightgbm": {
+    "train_acc": 0.8578666666666667,
+    "val_acc": 0.46013333333333334,
+    "train_time": 14.680004596710205
+  },
+  "catboost": {
+    "train_acc": 0.6197333333333334,
+    "val_acc": 0.45626666666666665,
+    "train_time": 6.452681541442871
+  },
+  "ensemble": {
+    "train_acc": 0.8410666666666666,
+    "val_acc": 0.46386666666666665,
+    "train_time": 699.1437511444092
+  },
+  "best_model": "Boosting Ensemble",
+  "best_accuracy": 0.46386666666666665
+}
